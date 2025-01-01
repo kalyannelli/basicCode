@@ -1,0 +1,25 @@
+<p>dashboard works!</p>
+
+<div>
+    <input type="text" placeholder="select" [(ngModel)]="searchItem" />
+</div>
+
+
+<ul>
+    <li *ngFor="let item of filterItems">
+        {{item}}
+    </li>
+
+</ul>
+
+
+
+<!-- <div>
+    <input type="text" placeholder="Search here..." [(ngModel)]="searchQuery" />
+</div>
+
+<ul>
+    <li *ngFor="let item of filteredItems">
+        {{ item }}
+    </li>
+</ul> -->
